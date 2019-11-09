@@ -12,7 +12,7 @@ from flask_cors import CORS
 q = Queue(connection=Redis())
 
 
-UPLOAD_FOLDER = './static/images/'
+UPLOAD_FOLDER = '/home/bharathrajeevnair/dsfh-v2/api-backend/static/images/'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
 
 app = Flask(__name__)
@@ -97,14 +97,14 @@ def deploy(model_name):
         return 'No File Sent'
 
     file = request.files['file']
-    file.save("./tmp/samp.jpg")
-    img = open_image("./tmp/samp.jpg")
+    file.save("/home/bharathrajeevnair/dsfh-v2/api-backend/tmp/samp.jpeg")
+    img = open_image("/home/bharathrajeevnair/dsfh-v2/api-backend/tmp/samp.jpeg")
 
-    learn = load_learner('./models/'+model_name)
+    learn = load_learner('/home/bharathrajeevnair/dsfh-v2/api-backend/models/'+model_name)
     pred_class, _, _ = learn.predict(img)
     pred = int(pred_class)
 
-    os.remove("./tmp/samp.jpg")
+    os.remove("/home/bharathrajeevnair/dsfh-v2/api-backend/tmp/samp.jpeg")
     data_foy = {
         u'prediction': labels[pred],
     }

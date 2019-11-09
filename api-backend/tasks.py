@@ -10,7 +10,7 @@ from database import db
 
 
 url = "https://www.google.com/"
-UPLOAD_FOLDER = './static/images/'
+UPLOAD_FOLDER = '/home/bharathrajeevnair/dsfh-v2/api-backend/static/images/'
 
 
 def sendMail(toAddress, data):
@@ -49,9 +49,9 @@ def train_model(labels, description, model, toEmail):
     learn = cnn_learner(data, models.resnet34, metrics=error_rate)
     learn.fit_one_cycle(1)
     learn.export()
-    os.makedirs('./models/'+model)
+    os.makedirs('/home/bharathrajeevnair/dsfh-v2/api-backend/models/'+model)
     os.rename(UPLOAD_FOLDER+'export.pkl',
-              './models/'+model+'/export.pkl')
+              '/home/bharathrajeevnair/dsfh-v2/api-backend/models/'+model+'/export.pkl')
 
     # Adding model info to the db, helps when deploying
     data_for_models = {
