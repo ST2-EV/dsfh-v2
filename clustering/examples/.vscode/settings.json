@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#302F05",
+        "titleBar.activeBackground": "#434207",
+        "titleBar.activeForeground": "#FCFBE2"
+    },
+    "python.pythonPath": "/home/retr0/.conda/envs/dsfh-cluster/bin/python"
+}
