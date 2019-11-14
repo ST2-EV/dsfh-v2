@@ -15,9 +15,7 @@ A platform for hospitals where doctors can store and record images of disesases 
 ```$ git clone https://github.com/ST2-EV/dsfh-v2.git```<br />
 ```$ dsfh-v2```
 
-##### To set up backend server:
-
-###### Backend:
+##### Backend:
 Setup a firebase project and download the private key of your project and place the json file in the api-backend folder.<br />
 ```$ cd api-backend/```
 
@@ -29,7 +27,7 @@ Install Redis Queue and run ```rq worker```. Use [this](https://python-rq.org/) 
 
 Your backend is ready!!
 
-###### Mobile applications:
+##### Mobile applications:
 There are two apps, one for taking and uploading images and aanother to run the predictive models.
 <br />
 send-file-app is to upload images.
@@ -39,12 +37,13 @@ APKs folder has the apk files for both the apps.<br />
 [Google drive link for APKs](https://drive.google.com/open?id=1RybSKRTsmAs1U3F9MrY9AhkwKJ0q-5s5)
 <br />
 
-###### Dashboard web application:
+##### Dashboard web application:
 Go into the dashboard folder an run,
 ```$ npm install```<br />
 ```$ sudo npm start```<br />
 Go to static/images and run php server for file system.<br />
-###### Backend for clustering:
+
+##### Backend for clustering:
 Go to the clustering folder,<br />
 ```$ cd examples```<br />
 ```$ flask run```<br />
