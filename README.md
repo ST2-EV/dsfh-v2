@@ -35,7 +35,8 @@ There are two apps, one for taking and uploading images and aanother to run the 
 send-file-app is to upload images.
 Inference-app is to run the predictive models.
 Open these folders with andriod studion and build and run the apps.
-APKs folder has the apk files for both the apps.
+APKs folder has the apk files for both the apps.<br />
+[Google drive link for APKs](https://drive.google.com/open?id=1RybSKRTsmAs1U3F9MrY9AhkwKJ0q-5s5)
 <br />
 
 ###### Dashboard web application:
