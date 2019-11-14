@@ -27,7 +27,7 @@ Go to the api-backend/app.py file and path to your private key.<br />
 Next install requirements,<br />
 ```$ pip install -r requirements.txt```
 
-Install Redis Queue and run rq workewr. Use [this](https://python-rq.org/) to install. Run the flask app<br />
+Install Redis Queue and run ```rq worker```. Use [this](https://python-rq.org/) to install. Run the flask app<br />
 ```$ flask run```
 
 Your backend is ready!!
