@@ -53,6 +53,7 @@ For the file server,
 ```$ php -S localhost:8000```<br />
 
 ### Usage:
+##### FAQ can be found [here.](https://st2-ev.github.io/)
 * Upload images via the first app to the servers with their respective disease names.
 * Once you have enough images per label, You can train a classifier by selecting all necesssary labels.
 * You can deploy the model by scanning the QR code availaible after training is over.
