@@ -24,9 +24,6 @@ Setup a firebase project and download the private key of your project and place 
 Go to the api-backend/app.py file and path to your private key.<br />
 ```$ cred = credentials.Certificate("path/to/private/key")```
 
-Next install requirements,<br />
-```$ pip install -r requirements.txt```
-
 Install Redis Queue and run ```rq worker```. Use [this](https://python-rq.org/) to install. Run the flask app<br />
 ```$ flask run```
 
