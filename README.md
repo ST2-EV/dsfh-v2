@@ -10,6 +10,11 @@ A platform for hospitals where doctors can store and record images of disesases 
 * So there is a continuous development cycle with a human in the loop. This really helps to mature the product fast.
 * The models made by doctors can be easily exposed as an public API that can be used by other hospitals and clinics or any industry that requires medical expertise.
 
+### Demo:
+[Mobile app - adding training data demo](https://youtu.be/NvKJhdTuTJk) \
+[Mobile app - running inference demo](https://youtu.be/rej8F6GY_3A) \
+[Web app - main platform demo](https://youtu.be/-3QDwWHBQTE?t=33) 
+
 ### Installation:
 ##### First, git clone the repo
 ```$ git clone https://github.com/ST2-EV/dsfh-v2.git```<br />
