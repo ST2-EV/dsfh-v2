@@ -59,6 +59,3 @@ For the file server,
 * You can deploy the model by scanning the QR code availaible after training is over.
 * The QR code can be scanned by the secondary app and be used to run the predictive models on new disease cases.
 
-
-### Credits:
-[Steve Paul](https://github.com/ST2-EV),&nbsp; [Bharath Nair](https://github.com/bnair2001)
